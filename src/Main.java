@@ -5,7 +5,10 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         AverageOfElements elements = new AverageOfElements();
-        int [] arr = {14,22,34,5,3,5,9};
+        int[] arr = {15, 12, 788, 1, -1, -778, 2, 0};
         System.out.println("Harmonik Ortalama : " + elements.harmonicAvr(arr));
+
+        FindingTheClosestNumber closestNumber = new FindingTheClosestNumber();
+        closestNumber.find(arr, 5);
     }
 }
