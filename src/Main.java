@@ -10,5 +10,9 @@ public class Main {
 
         FindingTheClosestNumber closestNumber = new FindingTheClosestNumber();
         closestNumber.find(arr, 5);
+
+        String[][] arr1 = new String[5][3];
+        ALetter letter = new ALetter();
+        letter.write(arr1);
     }
 }
